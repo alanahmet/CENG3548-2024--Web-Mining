@@ -6,8 +6,8 @@ This script extracts product information and reviews from Trendyol for comparing
 
 1. Clone the repository:
    ```bash
-   git clone <repository_url>
-   cd <repository_directory>
+   git clone https://github.com/alanahmet/CENG3548-2024-Web-Mining.git
+   cd CENG3548-2024-Web-Mining
    ```
 
 2. Set up a virtual environment using Poetry:
@@ -64,4 +64,4 @@ python product_comparison.py
 
 The script outputs a JSON file (`product_info_map.json`) containing:
 - Comments and details for each product
-- A comparison template with questions to help users decide between the products
+- A comparison template for ai to help users decide between the products
